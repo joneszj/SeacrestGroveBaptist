@@ -11,4 +11,11 @@ export class App {
   protected readonly title = signal('seacrestgrovebaptist');
   protected readonly churchName: string = 'Seacrest Grove Baptist Church';
   protected readonly currentYear: number = new Date().getFullYear();
+
+  closeNavbar() {
+    const navbar = document.querySelector('.navbar-collapse');
+    if (navbar?.classList.contains('show')) {
+      (navbar as any).classList.remove('show');
+    }
+  }
 }
