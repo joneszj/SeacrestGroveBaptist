@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { Event } from '../../models/event.model';
 import { CommonModule } from '@angular/common';
+import { Social } from '../../social/social';
 
 @Component({
   selector: 'app-events',
-  imports: [CommonModule],
+  imports: [CommonModule, Social],
   templateUrl: './events.html',
   styleUrls: ['./events.css']
 })

@@ -1,3 +1,10 @@
+@media (min-width: 992px) {
+  app-social {
+    position: sticky;
+    top: 80px; /* adjust based on navbar height */
+  }
+}
+
 .object-fit-cover {
   object-fit: cover;
 }
