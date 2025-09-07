@@ -62,11 +62,17 @@ For more information on using the Angular CLI, including detailed command refere
 Version Control: Git + GitHub
 Framework: Angular 20.2.2
 
+### Setup
+ng build --configuration production --base-href "/SeacrestGroveBaptist/"
+
 ### Build
 ng build --configuration production
 
 ### Deploy
-ng deploy --base-href=/
+ng deploy --base-href="/SeacrestGroveBaptist/"
 
 ### Serve
 ng serve -o
+
+### GitHun Pages Link
+https://joneszj.github.io/seacrestgrovebaptist/
