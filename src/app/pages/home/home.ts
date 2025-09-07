@@ -7,6 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './home.css'
 })
 export class Home {
-  churchName: string = 'Seacrest Grove Baptist Church';
-  currentYear: number = new Date().getFullYear();
+
 }
