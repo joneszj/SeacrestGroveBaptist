@@ -1,1 +1,29 @@
-<p>about works!</p>
+<!-- Staff Cards Above -->
+<div class="container my-5">
+  <h1 class="mb-4 text-center">Meet Our Team</h1>
+  <div class="row g-4">
+    <div class="col-sm-6 col-md-4 col-lg-3" *ngFor="let member of staff">
+      <div class="card h-100 shadow-sm text-center">
+        <img [src]="member.imageUrl" class="card-img-top object-fit-cover" alt="{{ member.name }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ member.name }}</h5>
+          <p class="text-muted">{{ member.title }}</p>
+          <p class="card-text">{{ member.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- What We Believe Section -->
+<div class="container my-5">
+  <h2 class="mb-4 text-center">What We Believe</h2>
+  <div class="row g-4">
+    <div class="col-md-6" *ngFor="let belief of beliefs">
+      <div class="card h-100 shadow-sm p-3">
+        <h5 class="card-title">{{ belief.title }}</h5>
+        <p class="card-text">{{ belief.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>

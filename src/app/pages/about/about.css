@@ -1,0 +1,4 @@
+.object-fit-cover {
+  object-fit: cover;
+  height: 250px; /* adjust portrait height */
+}

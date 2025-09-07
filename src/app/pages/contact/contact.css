@@ -1,0 +1,16 @@
+.card {
+  border-radius: 0.5rem;
+}
+
+iframe {
+  min-height: 300px;
+  border-radius: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
