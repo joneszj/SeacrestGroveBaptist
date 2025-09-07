@@ -57,3 +57,16 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Development Notes
+Version Control: Git + GitHub
+Framework: Angular 20.2.2
+
+### Build
+ng build --configuration production
+
+### Deploy
+ng deploy --base-href=/
+
+### Serve
+ng serve -o
